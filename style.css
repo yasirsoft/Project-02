@@ -1,0 +1,110 @@
+
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+    --black: #353535
+  }
+
+  /*body{
+    font-family: var(--font-family);
+  } */
+
+  nav ul li a {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 15px;
+line-height: 200%;
+color: #353535;
+padding: 18px 22px !important;
+position: relative;
+  }
+
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background-color: var(--black);
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+
+  }
+
+  nav ul li a:hover::after{
+    width: 100%;
+  }
+
+  nav .navbar-toggler{
+    background-color:
+    outline: none;
+    border: none;
+    padding: 0;
+  }
+
+/***** Banner Start  *****/ 
+#hero {
+  padding: 56px 0;
+}
+#hero h4{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #353535;
+}
+#hero h2{
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 64px;
+color: #353535;
+}
+
+#hero p{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 190%;
+color: #353535;
+}
+
+#hero .icons a{
+  font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+line-height: 180%;
+text-decoration: none;
+display: inline-block;
+color: #fff;
+}
+
+#hero .icons a:first-child{
+  background: #fc0;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 0;
+  align-items: center;
+  padding: 15px ;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+#hero .icons a:hover:first-child{
+  background: transparent;
+  outline: 2px solid; #353535;
+  color: #353535; 
+}
+
+#hero .icons a:last-child{
+  outline: 2px solid; #353535 
+  display: inline-flex;
+  justify-content: center;
+  line-height: 0;
+  align-items: center;
+  padding: 10px 40px ;
+  border-radius: 15px;
+  color: #353535;
+}
+
+ /***** End Banner  *****/
